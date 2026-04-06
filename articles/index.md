@@ -1,15 +1,7 @@
 ---
 layout: page
-title: Delphi Playground
+title: "Delphi Playground: Modernizing Object Pascal"
 ---
-
-<style>
-  header ul { display: none !important; } 
-  header { padding: 1.5em 1.5em !important; } 
-  section { padding: 1.5em 1.5em !important; }
-</style>
-
-# Delphi Playground: Modernizing Object Pascal
 
 Welcome to the **Delphi Playground**! This repository is a curated collection of architectural patterns, techniques, and best practices designed to modernize Object Pascal (Delphi) development. 
 

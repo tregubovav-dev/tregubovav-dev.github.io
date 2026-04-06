@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Modernizing Object Pascal: Readability, Safety, and Sustainability with Helpers
-permalink: /:path/Helpers.:output_ext
+title: "Modernizing Object Pascal: Readability, Safety, and Sustainability with Helpers"
 ---
 # Modernizing Object Pascal: Readability, Safety, and Sustainability with Helpers
 

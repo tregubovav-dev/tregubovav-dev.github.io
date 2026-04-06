@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Advanced Records in Delphi: Operator Overloading, Atomics, and Smart Pointers
-permalink: /:path/:Records.:output_ext
+title: "Advanced Records in Delphi: Operator Overloading, Atomics, and Smart Pointers"
 ---
 
 # Advanced Records in Delphi: Operator Overloading, Atomics, and Smart Pointers

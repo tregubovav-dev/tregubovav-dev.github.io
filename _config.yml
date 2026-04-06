@@ -6,6 +6,12 @@ baseurl: ""
 url: "https://tregubovav-dev.github.io"
 theme: "minima"
 
+# Technical Header Navigation
+# This defines exactly which links appear in the top-right menu
+header_pages:
+  - index.md
+  - articles/index.md
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
