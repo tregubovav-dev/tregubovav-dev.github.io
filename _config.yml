@@ -15,3 +15,11 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Exclude Marp slide source files from Jekyll build to avoid conflicts with compiled HTML
+exclude:
+  - "slides/**/*.md"
+  - "node_modules"
+  - "vendor"
+  - "Gemfile"
+  - "Gemfile.lock"
