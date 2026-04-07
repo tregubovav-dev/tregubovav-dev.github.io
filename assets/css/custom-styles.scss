@@ -1,0 +1,89 @@
+--- # Only the main Sass file needs front matter ---
+/* Overrides for cleaner layout per design requirements */
+
+.site-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 48px;
+}
+
+.site-title {
+  font-size: 20px;
+}
+
+.page-content {
+  padding-top: 20px;
+}
+
+/* Hide GitHub/Social standard margins if needed */
+.social-media-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* Premium Styling for Portfolio */
+
+body {
+  background-color: #fafbfc;
+  color: #24292e;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #1a3c6d;
+  /* Delphi Blue variant */
+}
+
+.site-title {
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  background: linear-gradient(135deg, #1a3c6d 0%, #b91d47 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.post-preview {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.post-preview:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.post-preview h3 a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.post-preview h3 a:hover {
+  color: #b91d47;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #6a737d;
+  margin-bottom: 1rem;
+}
+
+pre {
+  background: #000080 !important;
+  /* Turbo Pascal Blue vibe */
+  border-radius: 6px;
+  color: #fff;
+  padding: 1rem;
+}
+
+.wrapper {
+  max-width: 900px;
+}

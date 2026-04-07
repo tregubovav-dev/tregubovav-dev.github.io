@@ -22,10 +22,15 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Compile Marp Slides
-        # Converts all .md slides in the slides/ folder to HTML
+        # Converts all .md slides in the slides/ folder to HTML, PDF, and PPTX
         run: |
           if [ -d "slides" ]; then
+            # Generate HTML
             npx @marp-team/marp-cli@latest slides/ --html true --recursive
+            # Generate PDF
+            npx @marp-team/marp-cli@latest slides/ --pdf --recursive
+            # Generate PPTX
+            npx @marp-team/marp-cli@latest slides/ --pptx --recursive
           else
             echo "No 'slides' directory found. Skipping Marp."
           fi

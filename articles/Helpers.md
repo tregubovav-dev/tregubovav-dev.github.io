@@ -2,13 +2,6 @@
 layout: page
 title: "Modernizing Object Pascal: Readability, Safety, and Sustainability with Helpers"
 ---
-# Modernizing Object Pascal: Readability, Safety, and Sustainability with Helpers
-
-**By Alexander Tregubov**
-
-*Source Code available at: [Delphi-Playground](https://github.com/tregubovav-dev/Delphi-Playground)*
-
----
 
 Developers have long embraced Object-Oriented Programming (OOP) and class-based designs. However, we often treat primitive types—like Integers, Booleans, and Strings—as "givens," relying on legacy global procedures and functions to manipulate them. 
 
@@ -257,12 +250,14 @@ Despite these limits, the vision remains: **One mental model for all data types.
 *   **Universal "Active" Syntax:** Enabling `Data.Action` consistently across Objects, Records, and Primitives.
 *   **Bridge, don't Break:** This pattern allows modern syntax to coexist with legacy code without deprecating existing patterns. It simply provides a more expressive, readable, and safer alternative.
 
-## Conclusion
+## Presentation & Resources
 
-Helpers are more than just syntax sugar. They are a powerful architectural tool that allows us to:
-1.  **Modernize** syntax without rewriting underlying business logic.
-2.  **Extend** closed libraries and VCL/FMX components safely.
-3.  **Bridge** the gap between Pascal's type safety and C-style APIs.
+You can explore the highlights of this research in the accompanying interactive presentation. It is available in various formats for offline study and team sharing.
+
+### 🎥 Slide Deck
+*   **[Interactive Slides (HTML)](/slides/Helpers.html)** — *Best for online viewing.*
+*   **[Download Package (PDF)](/slides/Helpers.pdf)** — *Best for printing and offline reading.*
+*   **[PowerPoint (PPTX)](/slides/Helpers.pptx)** — *Best for full-screen presentations.*
 
 All the code examples demonstrated here are available in the **[Delphi-Playground Repository](https://github.com/tregubovav-dev/Delphi-Playground)**.
 

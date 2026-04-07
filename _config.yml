@@ -4,23 +4,36 @@ email: "tregubovav.dev@gmail.com"
 description: ""
 baseurl: ""
 url: "https://tregubovav-dev.github.io"
-theme: "minima"
-
-# Technical Header Navigation
-# This defines exactly which links appear in the top-right menu
-header_pages:
-  - index.md
-  - articles/index.md
+remote_theme: jekyll/minima
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
+
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
+
+pagination: enabled
+paginate: 1
+paginate_path: "/page:num"
+
+minima:
+  nav_pages:
+    - about.md
+
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/tregubovav-dev/"
+    - title: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/tregubovav"    
 
 # Exclude Marp slide source files from Jekyll build to avoid conflicts with compiled HTML
 exclude:

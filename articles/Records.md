@@ -251,9 +251,14 @@ end;
 
 👉 **[See Demo: Smart Pointers](https://github.com/tregubovav-dev/Delphi-Playground/tree/main/Source/Records)**
 
-## Conclusion
+## Presentation & Resources
 
-While Helpers are great for adding syntax sugar, **Advanced Records** give you total control over memory layout, language operators, and lifecycle management. They allow you to encapsulate thread-safety and automate memory management while maintaining the absolute zero-overhead performance that Delphi is known for.
+You can explore the highlights of this research in the accompanying interactive presentation. It is available in various formats for offline study and team sharing.
+
+### 🎥 Slide Deck
+*   **[Interactive Slides (HTML)](/slides/Records.html)** — *Best for online viewing.*
+*   **[Download Package (PDF)](/slides/Records.pdf)** — *Best for printing and offline reading.*
+*   **[PowerPoint (PPTX)](/slides/Records.pptx)** — *Best for full-screen presentations.*
 
 All the code examples, including the multithreaded stress tests and Smart Pointer implementations, are available in the **[Delphi-Playground Repository](https://github.com/tregubovav-dev/Delphi-Playground)**.
 

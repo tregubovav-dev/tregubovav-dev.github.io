@@ -24,7 +24,6 @@ In this series, we explore how to use **Class and Record Helpers** to completely
 *   **Taming C-APIs:** Safely map sparse C-Enums, integer bitmasks, and Opaque Handles (`HKEY`, `HWND`) into clean, Object-Oriented Pascal interfaces.
 
 👉 **[Read the full article: Modernizing Pascal with Helpers ➔](/articles/Helpers.html)**  
-*(Includes presentation slides and code examples)*
 
 ---
 
@@ -41,7 +40,6 @@ In this series, we step beyond Helpers to build powerful, zero-overhead wrappers
 *   **Smart Pointers & ARC:** Utilize Delphi 10.4+ Custom Managed Records (CMR) to implement Automatic Reference Counting (ARC) and true RAII (Resource Acquisition Is Initialization) for both value types and classes.
 
 👉 **[Read the full article: Advanced Records in Delphi ➔](/articles/Records.html)**  
-*(Includes presentation slides and code examples)*
 
 ---
 
